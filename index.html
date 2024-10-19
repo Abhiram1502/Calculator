@@ -9,14 +9,18 @@
 </head>
 <body>
     <div class="container" id="container">
-        <div class="switch-button" id="btn">
-            <label class="switch">
-                <input class="checkbox" type="checkbox" onclick="myfunction()" id="checkbox">
-                <span class="slider"></span>
-            </label>
-        </div>
-        <h1 id="head">Calculator</h1>
         <div class="calculator" id="calculator">
+            <div class="head-bar">
+                <h1 id="head">Calculator</h1>
+                <div class="btn-float">
+                    <div class="switch-button" id="btn">
+                        <label class="switch">
+                            <input class="checkbox" type="checkbox" onclick="myfunction()" id="checkbox">
+                            <span class="slider"></span>
+                        </label>
+                    </div>
+                </div>
+            </div>
             <form>
                 <div class="display">
                     <input type="text" name="display">
